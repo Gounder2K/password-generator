@@ -14,6 +14,7 @@ def generateRandomPassword(n,symbols = 'N',capital = 'N'):
         randInd = random.randrange(0,n-1)
         password =''.join(c.upper() if i == randInd else c for i, c in enumerate(password))
 
+
     return password
         
 
