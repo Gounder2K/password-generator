@@ -1,6 +1,8 @@
 import string
 import random
+
 def generateRandomPassword(n,symbols = 'N',capital = 'N'):
+    
     password = ''
     for i in range(0,n):
         password = password + random.choice(string.ascii_letters)
